@@ -1,0 +1,260 @@
+* {
+    margin: 0px;
+    padding: 0px;
+   
+    
+  }
+  .main-container{
+    width: 100%;
+    background: black;
+  }
+  .my-nav {
+    border-bottom: 1px solid black;
+    position: sticky;
+    background-color: black;
+    top: 0px;
+    height: 86px;
+    z-index: 25;
+  }
+  .nav-list{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  .nav-list a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    
+  }
+  .nav-list a:hover{
+    color: white;
+  }
+  .left-side-nav{
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: space-evenly;
+align-items: center;
+    width: 25%;
+    margin: auto;
+    padding: 0px;
+    gap: 5px;
+  }
+  .logo a{
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .logo a:hover{
+    color: white;
+  }
+  .right-side-nav{
+    -webkit-box-align: center; 
+    align-items: center;
+    display: flex; 
+    width: 25%;
+    margin: auto;
+    padding-left: 30px;
+  }
+  .center-nav{
+   width: 50%;
+  }
+  .hero-section{
+    background-image: url(./images/pizza1\ 1.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    height: 50vw;
+    width: 100%;
+    
+  display: flex;
+  gap: 23px;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 12vw;
+    
+  }
+  .hero-section h1{
+    color: white;
+    font-size: 4vw;
+    letter-spacing: 8px;
+    width: 50%;
+  }
+  .hero-section p{
+    color: white;
+    width: 33%;
+    font-size: 20px;
+    text-wrap:wrap;
+  }
+  .color-div{
+    background: #F24C4C;
+    width: 526px;
+    height: 10px;
+  /*width: 586px;
+  height: 13px;*/
+  }
+  .head-page{
+    font-size: 60px;
+    margin: 0;
+    color: #fff;
+  }
+  .about-us{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+   color: #fff;
+   padding: 80px 0;
+  }
+  .about-det{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+
+  }
+  .about-text p{
+    color: #fff;
+    font-size: 25px;
+    width: 80%;
+    text-wrap:wrap;
+  }
+  .about-det img{
+   width: 600px;
+   height: 400px;
+
+  }
+  .menu{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+   color: #fff;
+   padding: 80px 0;
+    flex-direction: column;
+
+  }
+  #carouselExampleIndicators{
+    padding-top: 30px;
+  }
+  .menu-text p{
+    font-size: 25px;
+    text-wrap:wrap;
+  }
+  .menu-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .menu-card{
+    display: flex;
+    flex-direction: row;
+    align-items:start;
+    justify-content: space-evenly;
+    padding-top: 20px;
+
+  }
+  .items-dte{
+    margin-left: 20px;
+  }
+  .items-dte h6{
+font-size: 28px;
+color: #F2C94C;
+;
+  }
+  .items-dte p{
+  font-size: 20px;
+  }
+  .crousel{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+   color: #fff;
+   padding: 80px 0;
+    flex-direction: column;
+  }
+  .carousel-indicators >li {
+    width: 10px;
+    height: 10px;
+    border-radius: 30px;
+  }
+  .gallery{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+   color: #fff;
+   padding: 80px 0;
+    flex-direction: column;
+  }
+  .image-container{
+width: 50%;
+  }
+  .image-gallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 30px;
+
+
+  }
+  .find-us{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+   color: #fff;
+   padding: 80px 0;
+    flex-direction: column;
+  }
+  .find-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  #textsss{
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  .location,.email{
+ display: flex;
+ align-items: center;
+ color: white;
+  }
+  .contact{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .cont-number a{
+    color: white;
+    text-decoration: none;
+  }
+ footer{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+   
+ }
