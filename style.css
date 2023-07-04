@@ -4,6 +4,9 @@
    
     
   }
+  body{
+    font-family: 'Ruda', sans-serif;
+  }
   .main-container{
     width: 100%;
     background: black;
@@ -258,3 +261,13 @@ width: 50%;
     padding: 30px 80px;
    
  }
+ @media only screen and (max-width: 800px) {
+  .my-nav {
+    border-bottom: 1px solid gray;
+    position: sticky;
+    background-color: firebrick;
+    top: 0px;
+    height: 86px;
+    z-index: 25;
+  }
+}
